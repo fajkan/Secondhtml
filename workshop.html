@@ -3,30 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
+    <style>
+
+    body {
+    background-color: #f1d594;
+    }
+    header {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+
+    }
+
+    #myParagraph {
+    color: black;
+    }
+    .container {
+    background-color: red;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #f4ffcd;
+        padding: 50px 80px;
+        color: #ffffff;
+        text-align: right;
+    }
+    </style>
+
 </head>
 <body>
 <header>
 
-    <h1>Register</h1>
-    <h3>Please enter credentials here:</h3>
+    <h1>My site</h1>
+
+
 </header>
 
-<label>First Name:</label>
-<input type="text" name="firstName"/>
+<label>Username:</label>
+<input type="text" name="UserName"/>
 <br/>
-<label>Last Name:</label>
+<label>Password:</label>
 <input type="text" name="lastName"/>
 <br/>
-<label>Email:</label>
-<input type="text" name="email"/>
-<br/>
-<label>Course</label>
+<label>Server</label>
 <select>
-    <option>test1</option>
-    <option>test2</option>
-    <option>test3</option>
+    <option>Americas</option>
+    <option>Europe</option>
+    <option>Asia</option>
 </select>
-
+<input type="submit" name="register" value="Register"/>
 <br/>
+<footer>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Register</a>
+        <a href="#">Search</a>
+        <a href="#">Show Information</a>
+    </nav>
+</footer>
 </body>
 </html>
